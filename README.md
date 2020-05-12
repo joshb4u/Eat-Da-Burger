@@ -27,10 +27,11 @@ This project is licensed under MIT
 
 
 ## Updated Portfolio Link
+https://joshb4u.github.io/portfolio.html
 
 
 ## Video Link
-https://joshb4u.github.io/Hw12/public/assets/demo.mp4
+https://joshb4u.github.io/Hw13/public/assets/demo.mp4
 
 
 ## Preview (GIF)
