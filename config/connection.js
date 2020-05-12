@@ -7,7 +7,7 @@ let connection;
 		connection = mysql.createConnection({
 			host: "localhost",
 			user: "root",
-			password: "",
+			password: "!Babu601",
 			database: "burgers_db"
 		});
 	}
