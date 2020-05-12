@@ -1,0 +1,12 @@
+.jumbotron {
+	font-family: "Compacta";
+	background-image: url("../img/burger.png");
+	color: white;
+}
+body {
+	background-image: url("../img/burger.png");
+	color: white;
+}
+.card {
+	background-color: brown;
+}
