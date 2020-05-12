@@ -1,6 +1,6 @@
 const mysql = require("mysql2");
 
-let connection;
+var connection;
 	if (process.env.JAWSDB_URL) {
 		connection = mysql.createConnection(process.env.JAWSDB_URL);
 	} else {
@@ -12,13 +12,13 @@ let connection;
 		});
 	}
 
-// Make connection.
-connection.connect(function(err) {
-	if (err) {
-		console.error("error connecting: " + err.stack);
-		return;
-	}
-	console.log("connected as id " + connection.threadId);
-});
-
+// // Make connection.
+// connection.connect(function(err) {
+// 	if (err) {
+// 		console.error("error connecting: " + err.stack);
+// 		return;
+// 	}
+// 	console.log("connected as id " + connection.threadId);
+// });
+connection.connect();
 module.exports = connection;
