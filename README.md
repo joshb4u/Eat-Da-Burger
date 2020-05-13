@@ -24,6 +24,7 @@ This project is licensed under MIT
 
 
 ## Deployed URL Link
+https://whispering-everglades-09702.herokuapp.com/
 
 
 ## Updated Portfolio Link
